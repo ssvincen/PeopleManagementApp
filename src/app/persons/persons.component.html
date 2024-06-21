@@ -1,1 +1,26 @@
-<p>persons works!</p>
+<!-- persons.component.html -->
+<div class="container mt-4">
+    <h2>Person List</h2>
+    <div *ngIf="persons.length === 0">
+      <p>No persons available.</p>
+    </div>
+    <div *ngIf="persons.length > 0">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let person of persons">
+            <td>{{ person.id }}</td>
+            <td>{{ person.name }}</td>
+            <td>{{ person.email }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
