@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { PersonsComponent } from './persons/persons.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { PersonFormComponent } from './person-form/person-form.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ContactComponent } from './contact/contact.component';
     LoginComponent,
     PersonsComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    PersonFormComponent
   ],
   imports: [
     BrowserModule,
