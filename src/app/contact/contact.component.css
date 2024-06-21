@@ -1,0 +1,20 @@
+.contact-details {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .detail {
+    display: flex;
+    align-items: center;
+  }
+  
+  .detail i {
+    margin-right: 10px;
+    color: #007bff; /* Example: Blue color for icon */
+  }
+  
+  .detail span {
+    color: #333; /* Example: Dark grey color for text */
+  }
+  
